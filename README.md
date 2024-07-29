@@ -110,7 +110,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions or suggestions, feel free to reach out to us:
 
 <ul>
-  <li><strong>Email:</strong> support@edusity.com</li>
   <li><strong>GitHub Issues:</strong> <a href="https://github.com/amantiwarix/edusity/issues">Issues Page</a></li>
 </ul>
 ---
