@@ -1,6 +1,6 @@
 # Edusity
 
-Edusity is a responsive educational platform built with ReactJS and Vite, providing a dynamic and user-friendly experience for students and educators. The platform offers a variety of courses, interactive quizzes, and comprehensive user profiles.
+Edusity is a responsive educational platform built with ReactJS and Vite, providing a dynamic and user-friendly experience for students and educators. The platform offers a variety of courses, and comprehensive student testimonials.
 
 ## Table of Contents
 
@@ -19,20 +19,18 @@ Edusity is a responsive educational platform built with ReactJS and Vite, provid
 
 <ul>
   <li>Responsive design for mobile, tablet, and desktop</li>
-  <li>User authentication and authorization</li>
-  <li>Course browsing and enrollment</li>
-  <li>Interactive quizzes and assignments</li>
-  <li>User profiles with progress tracking</li>
-  <li>Admin dashboard for managing courses and users</li>
+  <li>contact form using wich you can send email.</li>
+  <li>Our Programs and campus photos</li>
+  <li>Interactive  testiminials banner</li>
 </ul>
 
 ## Tech Stack
 
 <ul>
   <li><strong>Frontend:</strong> ReactJS, Vite</li>
-  <li><strong>State Management:</strong> Redux or Context API (choose one based on your implementation)</li>
-  <li><strong>Routing:</strong> React Router</li>
-  <li><strong>Styling:</strong> CSS, TailwindCSS or styled-components (choose based on your implementation)</li>
+  <li><strong>Contact Management:</strong> Web3form API</li>
+  <li><strong>Routing:</strong> React Router Dom</li>
+  <li><strong>Styling:</strong> CSS </li>
   <li><strong>Build Tool:</strong> Vite</li>
 </ul>
 
@@ -59,19 +57,12 @@ Edusity is a responsive educational platform built with ReactJS and Vite, provid
     npm install
     ```
 
-3. **Create a `.env` file:**
-    Create a `.env` file in the root directory and add your environment variables. Example:
-    ```plaintext
-    VITE_API_URL=http://localhost:5000/api
-    VITE_AUTH_TOKEN=your_auth_token
-    ```
-
-4. **Start the development server:**
+3. **Start the development server:**
     ```bash
     npm run dev
     ```
 
-    The application will be available at `http://localhost:3000`.
+    The application will be available at `http://localhost:5173`.
 
 ## Usage
 
@@ -81,7 +72,7 @@ Edusity is a responsive educational platform built with ReactJS and Vite, provid
   <li><strong>Development:</strong>
     <ul>
       <li>Run `npm run dev` to start the development server.</li>
-      <li>Open `http://localhost:3000` in your browser.</li>
+      <li>Open `http://localhost:5173` in your browser.</li>
     </ul>
   </li>
 
@@ -96,14 +87,8 @@ Edusity is a responsive educational platform built with ReactJS and Vite, provid
 ### User Roles
 
 <ul>
-  <li><strong>Students:</strong> Can enroll in courses, view grades, and access personal profiles.</li>
-  <li><strong>Educators:</strong> Can manage courses, create and grade quizzes, and track student progress.</li>
-  <li><strong>Admin:</strong> Can manage users, courses, and oversee the entire system.</li>
+  <li><strong>Students:</strong> Can view our programs, campus gallery, testimonials, and contact us.</li>
 </ul>
-
-## Configuration
-
-Ensure you have the necessary environment variables set up in the `.env` file for the frontend. Refer to the `.env.example` file for guidance.
 
 ## Contributing
 
@@ -126,8 +111,7 @@ If you have any questions or suggestions, feel free to reach out to us:
 
 <ul>
   <li><strong>Email:</strong> support@edusity.com</li>
-  <li><strong>GitHub Issues:</strong> <a href="https://github.com/yourusername/edusity/issues">Issues Page</a></li>
+  <li><strong>GitHub Issues:</strong> <a href="https://github.com/amantiwarix/edusity/issues">Issues Page</a></li>
 </ul>
 ---
 
-Feel free to adjust this template according to the specific details and requirements of your Edusity application built with ReactJS and Vite.
